@@ -1,0 +1,140 @@
+body {
+    background-color: #121212;
+}
+
+
+.container .box .tgr .logo img {
+    height: 50px;
+    width: 50px;
+    margin-top: 25%;
+    margin-left: 7%;
+    margin-bottom: 20px;
+}
+
+.container .box .tgr .text1 {
+    color: #F4F4F4;
+    font-size: 12px;
+    font-family: Brutal, sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    margin-right: 44px;
+    margin-bottom: 6px;
+}
+
+.container .box .tgr .login #email {
+    margin-bottom: 12px;
+}
+
+.container .box .tgr .login #email input {
+    height: 50px;
+    width: 350px;
+    background-color: rgba(42, 38, 44, 0.322);
+    border-radius: 10px;
+    border: none;
+    color: #FFF;
+    padding-left: 15px;
+}
+
+.container .box .tgr .login #password input {
+    border-radius: 10px;
+    background-color: rgba(42, 38, 44, 0.322);
+    height: 50px;
+    width: 350px;
+    border: none;
+    color: #FFF;
+    padding-left: 15px;
+}
+
+.container .box .tgr .login #email ::placeholder {
+    color: white;
+}
+
+.container .box .tgr .login #password ::placeholder {
+    color: white;
+}
+
+.container .box .tgr .lembrar #remember {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: grey;
+}
+
+.container .box .tgr .lembrar #remember p {
+    margin-right: 10px;
+}
+
+.container .box .tgr .lembrar {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.container .box .tgr .lembrar #certify {
+    margin-right: 10px;;
+}
+
+.container .box .tgr .lembrar #remember p {
+    text-decoration: none;
+    color: grey;
+    margin-left: 0px;
+}
+
+.container .box .tgr .lembrar #certify input {
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.container .box .tgr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.container .box .allbonus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container .box .allbonus p {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+.container .box .allbonus #enter button{
+    background-color: rgb(0, 176, 199);
+    border: none;
+    border-radius: 2px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+.container .box .allbonus #bonus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        color: grey;
+}
+
+.container .box .allbonus #bonus p {
+    display: flex;
+    
+}
+
+.container .box .allbonus a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 13px;
+}
