@@ -1,0 +1,7 @@
+.container-list-card-medium {
+    display: flex;
+}
+
+.container-list-card-medium.card-list {
+    margin-right: 1rem;
+}

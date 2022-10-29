@@ -1,0 +1,7 @@
+.container-list-card {
+    display: flex;
+}
+
+.container-list-card .card-list {
+    margin-right: 1rem;
+}

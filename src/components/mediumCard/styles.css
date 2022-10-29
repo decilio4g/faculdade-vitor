@@ -1,0 +1,37 @@
+body {
+    background-color: #2A2A2A;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-medium-card {
+    width: 350px;
+}
+
+.container-medium-card .box #img1 img {
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+}
+
+.container-medium-card .box .game {
+    text-decoration: none;
+}
+
+.container-medium-card .box #game1 {
+    padding-left: 30px;
+}
+
+.container-medium-card .box #game1 #l2 {
+    color: #F5F5F5;
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
+.container-medium-card .box #game1 #l3 {
+    color: #F5F5F599;
+    font-size: 14px;
+    font-family: sans-serif;
+}

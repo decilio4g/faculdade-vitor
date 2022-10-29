@@ -1,17 +1,19 @@
-import { useAuth } from '../../Auth/useAuth'
-import { useNavigate } from 'react-router-dom'
+import { MediumCardList } from './medium'
+import { PDP } from './pdp'
+import { Title } from '../../components/title'
+import MainCardContainer from "../../components/MainCardContainer/MainCardContainer";
+import LandingPage from '../LandingPage/LandingPage';
+
 
 export function Home() {
-    const auth = useAuth()
-    const navigate = useNavigate()
-
     return (
-        <div>
-            <h1>Home</h1>
+        <>
+            <MainCardContainer />
+            {/* <Title title="Jogos em destaque >" /> */}
+            {/* <PDP /> */}
+            {/* <MediumCardList /> */}
+            {/* <MainCardContainer data={[]} title="Game On Sale" /> */}
 
-            <button onClick={() => auth.signout(() => navigate("/login"))}>
-                sair
-            </button>
-        </div>
+        </>
     )
 }
