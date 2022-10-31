@@ -1,4 +1,4 @@
 import './styles.css'
 export function Title({ title }) {
-    return <h2 className='title'>{title}</h2>
+    return <h1 className='title'>{title}</h1>
 }

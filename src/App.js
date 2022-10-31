@@ -8,7 +8,7 @@ import {
 import { Dashboard } from './pages/dashboard'
 import { Login } from './pages/login'
 import { Register } from './pages/register'
-import { ProductPage } from './pages/pdp'
+import { ProductPage } from './pages/pdp/pdp.jsx'
 import { Form } from './pages/formulario'
 import {Home} from './pages/home'
 

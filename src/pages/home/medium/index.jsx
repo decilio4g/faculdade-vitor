@@ -20,7 +20,7 @@ export function MediumCardList() {
         }
     ]
     return (
-        <div className='container-list-card'>
+        <div className='container-list-card-medium'>
             {listCards?.map((card, index) => {
                 return (
                     <div className="card-list">

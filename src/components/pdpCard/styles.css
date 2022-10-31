@@ -9,6 +9,10 @@ body {
     object-fit: cover;
 }
 
+.container-pdp-card .box {
+    cursor: pointer;
+}
+
 .container-pdp-card .box .game   {
     text-decoration: none;
 }

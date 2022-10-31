@@ -1,7 +1,11 @@
 .container-list-card-medium {
-    display: flex;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
 }
 
 .container-list-card-medium.card-list {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }

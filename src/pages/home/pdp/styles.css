@@ -1,5 +1,6 @@
 .container-list-card {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container-list-card .card-list {

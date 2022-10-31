@@ -1,10 +1,10 @@
 .title {
-    display: flex;
-    font-weight: normal;
     margin: 0;
-    font-family: sans-serif;
-    align-items: center;
-    color: rgb(245, 245, 245);
-    font-size: 18px;
+    display: flex;
+    font-size: 32px;
     line-height: 1.4;
+    align-items: center;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: rgb(245, 245, 245);
 }
