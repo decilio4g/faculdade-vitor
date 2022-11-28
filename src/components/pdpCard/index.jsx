@@ -1,7 +1,8 @@
 import "./styles.css";
 import { Link } from "react-router-dom";
 
-export function PdpCard() {
+export function PdpCard({ card }) {
+  console.log("ccaard", card);
   return (
     <div class="container-pdp-card">
       <Link to="product">

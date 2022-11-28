@@ -1,6 +1,7 @@
 import { useNavigate, useLocation } from "react-router-dom";
+import { useForm } from "react-hook-form";
 import { useUser } from "../../store/auth";
-
+import { api } from "../../service/api";
 import { useAuth } from "../../Auth/useAuth";
 
 import "./style.css";
@@ -9,23 +10,20 @@ export function Login() {
   let navigate = useNavigate();
   let location = useLocation();
   let auth = useAuth();
-  const { logInto } = useUser((state) => state);
 
-  let from = location.state?.from?.pathname || "/login";
+  const { register, handleSubmit } = useForm();
 
-  function handleSubmit(event) {
-    event.preventDefault();
+  const onSubmit = async (form) => {
+    const { data } = await api.post("login", form);
 
-    let formData = new FormData(event.currentTarget);
-    let email = formData.get("email");
+    if (data.status === 201) navigate("/formulario");
 
-    navigate("/");
-    logInto();
-  }
+    console.log("RESPONSE AQUI GABRIEL", data);
+  };
 
   return (
     <div class="container">
-      <form onSubmit={handleSubmit} class="box">
+      <form onSubmit={handleSubmit(onSubmit)} class="box">
         <div class="tgr">
           <div class="logo">
             <img
@@ -44,6 +42,7 @@ export function Login() {
               <input
                 type="text"
                 name="email"
+                {...register("email")}
                 title="Endereço de E-mail"
                 placeholder="Endereço de E-mail"
               />
